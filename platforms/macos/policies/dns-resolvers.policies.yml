@@ -6,4 +6,5 @@
   platform: darwin
 
   run_script:
-    path: ../platforms/macos/scripts/set-dns-cloudflare.sh
+    path: ../scripts/set-dns-cloudflare.sh
+
