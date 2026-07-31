@@ -2,4 +2,4 @@
   platform: darwin
   description: Hosts with an uptime greater than 30 days
   query: SELECT 1 FROM uptime WHERE days > 30
-  lable_membership_type: dynamic
+  label_membership_type: dynamic
