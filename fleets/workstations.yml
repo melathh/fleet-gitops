@@ -193,3 +193,9 @@ software:
 
   app_store_apps: # Apps to install via VPP from the macOS App Store, if any
     # …
+settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/ada17b52-8fe8-41ae-a3e4-11763052c895
+      host_bath_size: 0
