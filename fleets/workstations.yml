@@ -198,4 +198,4 @@ settings:
     failing_policies_webhook:
       enable_failing_policies_webhook: true
       destination_url: https://webhook.site/ada17b52-8fe8-41ae-a3e4-11763052c895
-      host_bath_size: 0
+      host_batch_size: 0
