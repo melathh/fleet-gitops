@@ -21,7 +21,7 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: PI Fleet
+    org_name: PI Fleet Ltd.
 
   server_settings:
     ###########################################################
@@ -136,3 +136,8 @@ controls:
 ###########################################################
 labels:
   - paths: ./labels/*.yml
+
+webhook_settings:
+  activities_webhook:
+    enable_activities_webhook: true
+    destination_url: https://webhook.site/ada17b52-8fe8-41ae-a3e4-11763052c895
